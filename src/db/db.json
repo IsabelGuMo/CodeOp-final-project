@@ -1,0 +1,38 @@
+{
+    "jewels": [
+        { "id": 1, "title": "Silver", "description": "leather and silver beads", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198380/Three%20Little%20Birds%20Soul/silver_yaywlt.jpg"
+        },
+        { "id": 2, "title": "Wings", "description": "crochet and semiprecious gems and pendant of angel wingss", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198170/Three%20Little%20Birds%20Soul/wings_zqstvi.jpg" 
+        },
+        { "id": 3, "title": "Red", "description": "crochet and semiprecious red gems and pendant ", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198170/Three%20Little%20Birds%20Soul/red_huwny8.jpg" 
+        },
+        { "id": 4, "title": "Shark Tooth", "description": "crochet and semiprecious blue and white gems and shinning shark tooth pendant ", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198169/Three%20Little%20Birds%20Soul/shark-tooth_qnntyb.jpg" 
+        },
+        { "id": 5, "title": "Rainbow set", "description": "Earrings and leather bracelet with raibow beads and Monstera leaf", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198169/Three%20Little%20Birds%20Soul/rainbow-set_mnoz7a.jpg" 
+        },
+        { "id": 6, "title": "Moon", "description": "White & grey bracelet", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198169/Three%20Little%20Birds%20Soul/moon_o0gkyg.jpg" 
+        },
+        { "id": 7, "title": "Partner", "description": "Blue & black bracelets set", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198169/Three%20Little%20Birds%20Soul/partner_vpfv1z.jpg" 
+        },
+        { "id": 8, "title": "Monstera", "description": "Monstera leaf gold earrings", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198169/Three%20Little%20Birds%20Soul/monstera_b4jicr.jpg" 
+        },
+        { "id": 9, "title": "Rainbow childish necklace", "description": "Wood and rainbow pon-pon", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198169/Three%20Little%20Birds%20Soul/childish_auissj.jpg" 
+        },
+        { "id": 10, "title": "Blue childish necklace", "description": "Wood and blue pon-pon", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198168/Three%20Little%20Birds%20Soul/childish-blue_vhnwi6.jpg" 
+        },
+        { "id": 11, "title": "Scrape", "description": "Crochet and semiprecious white and green gems and scrape fish pendant", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198169/Three%20Little%20Birds%20Soul/fish_izxe0s.jpg" 
+        },
+        { "id": 12, "title": "Bone", "description": "crochet and semiprecious white, blue & red gems and bone pendant", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198168/Three%20Little%20Birds%20Soul/bone_h8uqzf.jpg" 
+        },
+        { "id": 13, "title": "Autum", "description": "crochet and semiprecious white and red gems and lead pendant", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198168/Three%20Little%20Birds%20Soul/autum_xyzzuh.jpg" 
+        },
+        { "id": 14, "title": "Catrina", "description": "Catrina gold mirror earrings", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198168/Three%20Little%20Birds%20Soul/catrina_mczjfj.jpg" 
+        },
+        { "id": 15, "title": "Bull skulls", "description": "Bull skulls silver mirror earrings", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198168/Three%20Little%20Birds%20Soul/bull-head_bgcbvs.jpg" 
+        },
+        { "id": 16, "title": "Bamboo", "description": "Crochet and semiprecious multicolored gems and wood & silver bamboo pendant", "url": "https://res.cloudinary.com/dayw7rwf5/image/upload/v1666198168/Three%20Little%20Birds%20Soul/bamboo_hjhuzl.jpg" 
+        }
+
+    ]
+    
+  }
