@@ -38,9 +38,13 @@ export default {
     getJewels() {
       this.loading = true;
       this.error = null;
-      axios.get("https://tlbsouldatabase.netlify.app/db.json")
+      axios.get("https://codeop-final-project-jade.vercel.app/db/db.json", {
+	headers: {
+	  'Access-Control-Allow-Origin': '*'
+	  }})
       .then(response => {
         this.data = response.data
+        console.log(this.data)
       })
       .catch(error => {
         console.log ("Lo sentimos, algo ha ido mal, intententelo de nuevo en unos minutos")
