@@ -1,7 +1,7 @@
 <template>
   <main>
     
-    <div class="grid grid-cols-4 gap-6 p-20 justify-items-center items-center">
+    <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 p-10 sm:p-20 justify-items-center items-center ">
      
       <div v-if="loading" class="h-20 w-20 mr-3 justify-center align-center" viewBox="0 0 24 24">
         <img src="https://cdn.dribbble.com/users/1573707/screenshots/3712012/aug-4-2017-6-11-pm.gif">
@@ -38,7 +38,7 @@ export default {
     getJewels() {
       this.loading = true;
       this.error = null;
-      axios.get('http://localhost:8080/jewels')
+      axios.get("https://tlbsouldatabase.netlify.app/db.json")
       .then(response => {
         this.data = response.data
       })

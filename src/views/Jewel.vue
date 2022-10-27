@@ -6,13 +6,13 @@
         Loading...
         </div>
 
-        <main v-if="data" class="grid grid-cols-3">
-            <div class="flex flex-col w-64 h-64 sticky top-10 justify-self-center bg-stone-500/50 rounded flex items-center justify-center text-center">
-                <router-link class="text-amber-400 text-xl bg-stone-400 rounded p-3 m-4" to="/">
+        <main v-if="data" class="sm:grid grid-cols-3 grid-rows">
+            <div class="flex flex-col sm:w-64 sm:h-64 xl:w-48 xl:h-48 sm:sticky top-10 justify-self-center bg-stone-500/50 rounded flex items-center justify-center text-center">
+                <router-link class="text-amber-400 sm:text-xl bg-stone-400 rounded p-3 m-4" to="/">
                     <p>Home</p>
                 </router-link>
-                <h2 class="text-stone-600 text-xl">{{ data.title }}</h2>
-                <p class="text-stone-500 text-xl"> {{data.description}}</p>
+                <h2 class="text-stone-600 sm:text-xl text-l">{{ data.title }}</h2>
+                <p class="text-stone-500 sm:text-xl text-l"> {{data.description}}</p>
             </div>
             
             <div class="flex flex-col gap-10">
@@ -21,7 +21,7 @@
                 <img class="bg-black/70 border-8 border-black rounded w-96 transition duration-500 hover:scale-125" :src="data.url3" :alt="data.description">
             </div>
 
-            <div class="flex flex-col w-64 h-64 sticky top-10 justify-self-center bg-stone-500/50 rounded flex items-center justify-center text-center">
+            <div class="flex flex-col sm:w-64 sm:h-64 md:w-48 h-48 sticky top-10 justify-self-center bg-stone-500/50 rounded flex items-center justify-center text-center">
                 
                 <a class="text-stone-600 bg-stone-400 rounded p-3 m-4" target="_blank" href="https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGBFFRLhZqwLsjmRsWCgqdmJB?compose=new">
                     <p class="text-amber-400 text-xl">Contáctanos
