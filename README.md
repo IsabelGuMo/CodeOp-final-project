@@ -12,10 +12,10 @@ Esta es una single page application desarrollada con Vue.js, TailwindsCss, Html 
   npm run dev
 ```
 
-##Proyecto:
-Creo la carpeta del poyecot y ejecuto [Install Vue width TailwindCSS](https://tailwindcss.com/docs/guides/vite);
+## Proyecto
+Creo la carpeta del poyecto y ejecuto [Install Vue width TailwindCSS](https://tailwindcss.com/docs/guides/vite);
 
-#Creo los componentes principales dentro de la carpeta views:
+Creo los componentes principales dentro de la carpeta views:
 
 He usado Vue Router para separar partes lógicas y darles estructura de rutas con <RouterView> y <RouterLink>, utilizaremos router.js (donde definimos las rutas de la aplicación) en el programa generando así páginas con rutas y sub-rutas dinámicas.
 - [Install Vue router](https://router.vuejs.org/installation.html)
