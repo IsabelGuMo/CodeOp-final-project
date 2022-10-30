@@ -38,7 +38,7 @@ export default {
     getJewels() {
       this.loading = true;
       this.error = null;
-      axios.get("http://localhost:8080/jewels", {
+      axios.get("http://localhost:8080/jewels", this.data, {
 	headers: {
 	  'Access-Control-Allow-Origin': '*'
 	  }})

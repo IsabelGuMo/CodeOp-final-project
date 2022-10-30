@@ -2,7 +2,7 @@
   <div>
     <div class="flex flex-col items-center text-5xl mt-20 text-stone-500 sm:text-9xl">
       <h3 class="text-xl sm:text-2xl">{ThreeLittleBirdsSoul}</h3>
-      <h1 class="">Tlb <i class="fa-solid fa-feather w-8 text-amber-500/50"></i></h1>
+      <h1 class="">Tlb<i class="fa-solid fa-feather w-8 text-amber-500/50"></i></h1>
       <h1 class="">Soul</h1>
       <h3 class="text-xl sm:text-2xl">
         by IsabelGM
