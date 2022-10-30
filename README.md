@@ -13,17 +13,17 @@ Esta es una single page application desarrollada con Vue.js, TailwindsCss, Html 
 ```
 
 ## Proyecto
-Creo la carpeta del poyecto y ejecuto [Install Vue width TailwindCSS](https://tailwindcss.com/docs/guides/vite);
+*Creo la carpeta del poyecto y ejecuto [Install Vue width TailwindCSS](https://tailwindcss.com/docs/guides/vite) ya que le daremos estilo al proyecto con TailwindsCSS;
 
-Creo los componentes principales dentro de la carpeta views:
+*Creo los componentes principales dentro de la carpeta views:
 
-He usado Vue Router para separar partes lógicas y darles estructura de rutas con <RouterView> y <RouterLink>, utilizaremos router.js (donde definimos las rutas de la aplicación) en el programa generando así páginas con rutas y sub-rutas dinámicas.
+*He usado Vue Router para separar partes lógicas y darles estructura de rutas con <RouterView> y <RouterLink>, utilizaremos router.js (donde definimos las rutas de la aplicación) en el programa generando así páginas con rutas y sub-rutas dinámicas.
 - [Install Vue router](https://router.vuejs.org/installation.html)
 
 -Home.vue mostrará una lista de bisutería accediendo a la data de nuestra db.json con axios como alternativa a fetch.
 - [Install axios](https://www.npmjs.com/package/vue-axios)
 
-Creo la ruta en el archivo ruotes.js y lo llamo Home
+  Creo la ruta en el archivo ruotes.js y lo llamo Home
 
 ```bash
 import Home from "./views/Home.vue";
@@ -40,7 +40,7 @@ export const routes = [
             this.data = response.data.find(element => element.id == this.id)
 ```
 
-Creo la ruta en el archivo routes.js y lo llamo Jewel
+  Creo la ruta en el archivo routes.js y lo llamo Jewel
 
 ```bash
 import Home from "./views/Home.vue";
@@ -53,7 +53,7 @@ export const routes = [
 ];
 ```
 
-El componente <App /> delega que componente se muestra a través de <RouterView>
+*El componente App delega que componente se muestra a través de <RouterView>
 
 Usando el [livecycle mounted](https://vuejs.org/guide/essentials/lifecycle.html) tendrá acceso completo al componente reactivo, las plantillas y DOM renderizado y cargará los datos al cargar la página.
 
@@ -62,9 +62,6 @@ mounted() {
         this.getJewel();
     },
 ```
-
-A todo le damos estilo con tailwindCSS
-
 
 ## Creando un fake Api Rest con Json Server
 
