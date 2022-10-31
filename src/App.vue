@@ -14,7 +14,7 @@
     
     <RouterView />
     <footer class="text-stone-500 text-center">
-      This is a student project that was created at <a class="text-amber-500" target="_blank" href="http://codeop.tech">CodeOp</a>, a full stack development bootcamp in Barcelona._
+      This is a IsabelGM project that was created at <a class="text-amber-500" target="_blank" href="http://codeop.tech">CodeOp</a>, a full stack development bootcamp in Barcelona.
     </footer>
   </div>
 </template>

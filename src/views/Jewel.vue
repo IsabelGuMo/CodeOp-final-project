@@ -48,7 +48,7 @@ export default {
     methods: {
         getJewel() {
         this.loading = true;
-        axios.get("http://localhost:8080/jewels", this.data, {
+        axios.get("https://codeop-final-project-jade.vercel.app/db/db.json", this.data, {
 	headers: {
 	  'Access-Control-Allow-Origin': '*'
 	  }})
