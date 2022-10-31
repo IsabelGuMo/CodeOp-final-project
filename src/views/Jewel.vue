@@ -47,13 +47,13 @@ export default {
     },
     methods: {
         getJewel() {
-        this.loading = true;
-        axios.get("https://codeop-final-project-jade.vercel.app/db/db.json", this.data, {
+            this.loading = true;
+            axios.get("../db/db.json", this.data, {
 	headers: {
 	  'Access-Control-Allow-Origin': '*'
 	  }})
         .then(response => {
-            this.data = response.data.find(element => element.id == this.id)
+            this.data = response.data.jewels.find(element => element.id == this.id)
             console.log(this.data);
         })
         .catch(error => {
