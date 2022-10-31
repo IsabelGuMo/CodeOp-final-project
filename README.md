@@ -131,3 +131,19 @@ https://youtu.be/YHG_Ei7Cj7o
 
 https://www.figma.com/proto/YdK8XfBRCWx1BuTau0RBea/Tlb-Soul-project?node-id=44%3A47&scaling=min-zoom&page-id=0%3A1
 
+
+## Deployment
+
+Uso [Vercel](https://vercel.com) para el despliegue (deploy) del proyecto. Al tratarse de una fake db tengo problemas con el CORS por lo que añado esta línea de código a los axios.
+
+
+```bash
+  axios.get("http://localhost:8080/jewels", this.data, {
+	headers: {
+	  'Access-Control-Allow-Origin': '*'
+	  }})
+```
+https://codeop-final-project-jade.vercel.app/
+
+
+
